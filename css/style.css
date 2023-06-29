@@ -70,6 +70,7 @@ nav a:hover {
 
 .search-form *{
     padding: 1rem 1.5rem;
+    font-size: 18px;
 }
 
 .search-form i{
@@ -85,7 +86,6 @@ nav a:hover {
 
 .search-form input::placeholder{
     color: #000;
-    font-size: 18px;
     font-weight: 700;
 }
 
@@ -94,8 +94,14 @@ nav a:hover {
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
     color: var(--white, #FFF);
-    font-size: 18px;
     font-weight: 700;
+    opacity: 0.9;
+    transition: transform 200ms;
+}
+
+.search-form button:hover {
+    opacity: 1;
+    transform: scale(1.05);
 }
 
 
@@ -116,7 +122,6 @@ nav a:hover {
 
 body {
     display: flex; 
-    justify-content: center;
 }
 
 .main-container {
